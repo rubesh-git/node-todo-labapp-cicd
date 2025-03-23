@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'TestServer' }
+    agent { label 'DockerAgent' }
     
     stages{
         stage('code'){
